@@ -1,68 +1,67 @@
 html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+height: 100%;
+width: 100%;
+margin: 0;
+color: grey;
 }
 
 #sidebar, #content {
-  height: 100%;
-  overflow:auto;
-  float:left;
-  transition: width .35s;
+height: 100%;
+overflow: auto;
+float: left;
+transition: width .35s;
 }
 
 #sidebar {
-  background:white;
-  width: 30%;
-  box-shadow: 2px 0 4px rgba(0,0,0,0.5);
+background: white;
+width: 30%;
+box-shadow: 2px 0 4px rgba(0,0,0,0.5);
+color: red;
 }
 
 #sidebar.collapsed {
-  width: 0;
+width: 0;
 }
 
 #sidebar.collapsed + #content {
-  width: 100%;
+width: 100%;
 }
 
 #content {
-  background:gray;
-  width: 70%;
+background: #DB13DA;
+width: 70%;
 }
 
 button {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border:none;
-  outline:none;
-  background: black;
-  margin: 20px;
-  cursor:pointer;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border: none;
+outline: none;
+background: blue;
+maegin: 20px;
+cursor: pointer;
 }
 
-h3 {
-  font-family: sans-serif;
-  color:white;
-  text-align:center;
-}
 
 h1 {
 text-align: center;
-color: #F81313;
+color: red;
+font-family: sans-serif;
 }
 
-h2 {
-text-align: center;
-color: #DB2929;
+.topcon {
+align: center;
+color: #F14bF0;
 }
 
 #maintext {
-text-align: center;
-color: #EC1313;
+align: center;
+color: #EA2FA3;
 }
 
 #whmtr {
-text-align: center;
-color: #EA0909;
+align: center;
+color: red;
 }
+
