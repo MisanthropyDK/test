@@ -46,23 +46,3 @@ h3 {
   color:white;
   text-align:center;
 }
-
-h1 {
-text-align: center;
-color: #F81313;
-}
-
-h2 {
-text-align: center;
-color: #DB2929;
-}
-
-#maintext {
-text-align: center;
-color: #EC1313;
-}
-
-#whmtr {
-text-align: center;
-color: #EA0909;
-}
