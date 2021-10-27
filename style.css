@@ -2,7 +2,7 @@ html, body {
 height: 100%;
 width: 100%;
 margin: 0;
-color: grey;
+color: gray;
 }
 
 #sidebar, #content {
@@ -28,7 +28,7 @@ width: 100%;
 }
 
 #content {
-background: #DB13DA;
+background: grey;
 width: 70%;
 }
 
